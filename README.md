@@ -1,6 +1,8 @@
 GridView-Item-Rotate
 ====================
-###0. 
+###0. originze this projet to can run in IDE Enviroment AS 3.1.3
+2018.7.5.Thu.
+
 ###1. Demo Download
 [本地下载](apk/gridview-item-rotate.apk?raw=true "点击下载到本地")  
 
