@@ -1,5 +1,6 @@
 GridView-Item-Rotate
 ====================
+###0. 
 ###1. Demo Download
 [本地下载](apk/gridview-item-rotate.apk?raw=true "点击下载到本地")  
 

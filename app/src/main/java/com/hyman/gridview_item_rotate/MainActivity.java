@@ -273,7 +273,7 @@ public class MainActivity extends Activity implements RotateAnimation.Interpolat
 
 
         gridWidthPix = DisplayUtil.SCREEN_WIDTH_PIXELS - DisplayUtil.dp2px(16) * 2;
-        //I am not sure why the right of next equality should minus 80px to display all items in the gridview without scrollbar in my devices (1920¡Á1080),
+        //I am not sure why the right of next equality should minus 80px to display all items in the gridview without scrollbar in my devices (1920Ã—1080),
         //this may make a bad adaption for various devices with different resolution ratio
         gridHeightPix = DisplayUtil.SCREEN_HEIGHT_PIXELS - DisplayUtil.dp2px(16) * 2 - tvBmHeight - 80;
 
@@ -321,7 +321,7 @@ public class MainActivity extends Activity implements RotateAnimation.Interpolat
         int sensorType = event.sensor.getType();
         float[] values = event.values;
         if (sensorType == Sensor.TYPE_ACCELEROMETER) {
-            //values[0] X axis acceleration£¬values[1] Y axis acceleration£¬values[2] Z axis acceleration
+            //values[0] X axis accelerationï¼Œvalues[1] Y axis accelerationï¼Œvalues[2] Z axis acceleration
             if (Math.abs(values[0]) > 17 || Math.abs(values[1]) > 17 || Math.abs(values[2]) > 17) {
 
                 if (!isClicked) {
